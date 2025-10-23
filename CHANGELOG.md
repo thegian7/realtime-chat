@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [0.2.0] - 2025-10-23
+
+### Added
+- Docker Compose setup for PostgreSQL
+- Prisma database migrations
+- Backend testing and verification
+
+### Changed
+- Updated Docker to use port 5433 to avoid local PostgreSQL conflicts
+
+### Tested
+- User registration and login endpoints
+- JWT authentication middleware
+- Socket.io real-time messaging
+- Message persistence to database
+- All backend functionality verified working
+
 ## [0.1.0] - 2025-10-23
 
 ### Added
