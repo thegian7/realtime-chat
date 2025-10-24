@@ -4,6 +4,30 @@ All notable changes to this project will be documented in this file.
 
 ## [Unreleased]
 
+## [0.3.0] - 2025-10-23
+
+### Added
+- Complete frontend React application (f679f29)
+  - Vite React TypeScript setup
+  - Tailwind CSS styling
+  - Zustand state management for authentication
+  - AuthForm component with login/register toggle
+  - ChatRoom component with Socket.io connection
+  - MessageList component with auto-scroll
+  - MessageInput component
+  - Real-time message broadcasting
+  - JWT token persistence in localStorage
+  - Connection status indicator
+  - Responsive design
+
+### Features
+- User authentication (login/register)
+- Real-time chat messaging
+- Message history loading
+- Auto-scroll to latest messages
+- Visual connection status
+- Clean, modern UI
+
 ## [0.2.0] - 2025-10-23
 
 ### Added
