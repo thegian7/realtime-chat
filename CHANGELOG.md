@@ -28,6 +28,11 @@ All notable changes to this project will be documented in this file.
 - Visual connection status
 - Clean, modern UI
 
+### Fixed
+- Tailwind CSS PostCSS plugin configuration (01b171a)
+  - Installed @tailwindcss/postcss package
+  - Updated postcss.config.js to use correct plugin
+
 ## [0.2.0] - 2025-10-23
 
 ### Added
